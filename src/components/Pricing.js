@@ -4,9 +4,10 @@ const Pricing = () => {
   const { state, dispatch } = useAppContext();
   const router = useRouter();
 
-  const handleSelectPlan = (plan) => {
+  const handleSelectPlan = async (plan) => {
     dispatch({ type: 'SET_PLAN', payload: plan });
-    router.push('/contacts#section-contacts');
+    await router.push('/contacts');
+    window.scrollTo({ left: 0, top: document.body.scrollHeight, behavior: "smooth" });
   };
 
   return (

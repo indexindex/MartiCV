@@ -16,7 +16,7 @@ const Testimonials = () => {
   const props = {
     loop: true,
     spaceBetween: 70,
-    slidesPerView: 2,
+    slidesPerView: 1,
     autoplay: {
       delay: 6000,
     },
