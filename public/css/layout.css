@@ -2993,15 +2993,16 @@
   }
 }
 
-/* - Contacts */
-.section.contacts .alert-success {
-  display: none;
-}
-
 .section.contacts .alert-success p {
   margin: 0;
   font-size: 16px;
-  color: #eee;
+  color: #4bffa5;
+}
+
+.section.contacts .alert-error p {
+  margin: 0;
+  font-size: 16px;
+  color: #ff4b4b;
 }
 
 .map {

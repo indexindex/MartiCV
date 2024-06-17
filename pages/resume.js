@@ -1,6 +1,5 @@
 import About from "../src/components/About";
 import Clients from "../src/components/Clients";
-import CustomText from "../src/components/CustomText";
 import Interests from "../src/components/Interests";
 import { ImagePageBanner } from "../src/components/PageBanner";
 import Pricing from "../src/components/Pricing";
@@ -47,8 +46,6 @@ const Resume = () => {
       <Testimonials />
       {/* Section Clients */}
       <Clients />
-      {/* Section Custom Text */}
-      <CustomText />
     </Layout>
   );
 };

@@ -1,5 +1,40 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
+import { useAppContext } from '../context';
+
 const ContactSection = () => {
+  const { state } = useAppContext();
+  const [senderEmail, setSenderEmail] = useState('');
+  const [subject, setSubject] = useState('');
+  const [message, setMessage] = useState('');
+  const [response, setResponse] = useState(null);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const res = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ senderEmail, subject, message }),
+      });
+
+      const result = await res.json();
+      setResponse(result);
+
+      
+      if (result.success) {
+        setSenderEmail('');
+        setSubject('');
+        setMessage('');
+      }
+    } catch (error) {
+      console.error('Error sending email:', error);
+      setResponse({ success: false, message: 'Failed to send email' });
+    }
+  };
+
   return (
     <Fragment>
       {/* Section Contacts Info */}
@@ -18,7 +53,7 @@ const ContactSection = () => {
                 </div>
                 <div className="name">Phone</div>
                 <div className="text">
-                  <a href="tel:marti.fotograaf@gmail.com">
+                  <a href="tel:+37253400432">
                   +372 5340 0432
                   </a>
                 </div>
@@ -31,7 +66,7 @@ const ContactSection = () => {
                 </div>
                 <div className="name">Email</div>
                 <div className="text">
-                  <a href="mailto:marti.fotograaf@gmail.com">
+                  <a href="#section-contacts">
                   marti.fotograaf@gmail.com
                   </a>
                 </div>
@@ -62,24 +97,45 @@ const ContactSection = () => {
       {/* Section Contacts Form */}
       <div className="section contacts" id="section-contacts">
         <div className="content">
-          {/* title */}
           <div className="title">
             <div className="title_inner">Contacts Form</div>
           </div>
-          {/* form */}
+          <div className="content-box">
+            {response && (
+              <div className={`alert-${response.success ? 'success' : 'error'}`}>
+                <p>{response.message}</p>
+              </div>
+            )}
+          </div>
           <div className="contact_form content-box">
-            <form id="cform" method="post">
+            <form id="cform" method="post" onSubmit={handleSubmit}>
               <div className="group-val">
-                <input type="text" name="name" placeholder="Name" />
+                <input
+                  type="email"
+                  name="senderEmail"
+                  placeholder="Your Email"
+                  value={senderEmail}
+                  onChange={(e) => setSenderEmail(e.target.value)}
+                  required
+                />
               </div>
               <div className="group-val">
-                <input type="email" name="email" placeholder="Email" />
+                <input
+                  type="text"
+                  name="subject"
+                  placeholder="Subject"
+                  value={subject}
+                  onChange={(e) => setSubject(e.target.value)}
+                  required
+                />
               </div>
               <div className="group-val ct-gr">
                 <textarea
                   name="message"
                   placeholder="Message"
-                  defaultValue={""}
+                  value={state.selectedPlan ? `Selected Plan: ${state.selectedPlan}` : message}
+                  onChange={(e) => setMessage(e.target.value)}
+                  required
                 />
               </div>
               <div className="group-bts">
@@ -89,12 +145,8 @@ const ContactSection = () => {
                 </button>
               </div>
             </form>
-            <div className="alert-success">
-              <p>Thanks, your message is sent successfully.</p>
-            </div>
           </div>
         </div>
-        <div className="clear" />
       </div>
     </Fragment>
   );

@@ -7,13 +7,13 @@ export const DesignSkills = () => {
       <div className="content">
         {/* title */}
         <div className="title">
-          <div className="title_inner">Design Skills</div>
+          <div className="title_inner">Content Creation Skills</div>
         </div>
         {/* skills items */}
         <div className="skills percent content-box">
           <ul>
             <li>
-              <div className="name">Web Design</div>
+              <div className="name">Videography / Photography</div>
               <div className="progress ">
                 <div className="percentage" style={{ width: "90%" }}>
                   <span className="percent">90%</span>
@@ -21,7 +21,7 @@ export const DesignSkills = () => {
               </div>
             </li>
             <li>
-              <div className="name">Illustrations</div>
+              <div className="name">Marketing</div>
               <div className="progress ">
                 <div className="percentage" style={{ width: "70%" }}>
                   <span className="percent">70%</span>
@@ -29,7 +29,7 @@ export const DesignSkills = () => {
               </div>
             </li>
             <li>
-              <div className="name">Photoshop</div>
+              <div className="name">Video / Photo Editing</div>
               <div className="progress ">
                 <div className="percentage" style={{ width: "95%" }}>
                   <span className="percent">95%</span>
@@ -67,7 +67,7 @@ export const LanguagesSkills = () => {
         <div className="skills percent content-box">
           <ul>
             <li>
-              <div className="name">English</div>
+              <div className="name">Estonia</div>
               <div className="progress">
                 <div className="percentage" style={{ width: "90%" }}>
                   <span className="percent">90%</span>
@@ -75,7 +75,7 @@ export const LanguagesSkills = () => {
               </div>
             </li>
             <li>
-              <div className="name">German</div>
+              <div className="name">Russian</div>
               <div className="progress">
                 <div className="percentage" style={{ width: "70%" }}>
                   <span className="percent">70%</span>
@@ -83,15 +83,7 @@ export const LanguagesSkills = () => {
               </div>
             </li>
             <li>
-              <div className="name">Italian</div>
-              <div className="progress">
-                <div className="percentage" style={{ width: "55%" }}>
-                  <span className="percent">55%</span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">French</div>
+              <div className="name">English</div>
               <div className="progress">
                 <div className="percentage" style={{ width: "85%" }}>
                   <span className="percent">85%</span>
@@ -111,13 +103,13 @@ export const CodingSkills = () => {
       <div className="content">
         {/* title */}
         <div className="title">
-          <div className="title_inner">Coding Skills</div>
+          <div className="title_inner">Editing Skills</div>
         </div>
         {/* skills items */}
         <div className="skills circles content-box">
           <ul>
             <li>
-              <div className="name">WordPress</div>
+              <div className="name">Canva</div>
               <div className="progress p90">
                 {" "}
                 {/* p90 = 90% circle fill color */}
@@ -132,7 +124,7 @@ export const CodingSkills = () => {
               </div>
             </li>
             <li>
-              <div className="name">PHP / MYSQL</div>
+              <div className="name">SFX / Sound Design</div>
               <div className="progress p75">
                 {" "}
                 {/* p75 = 75% circle fill color */}
@@ -147,7 +139,7 @@ export const CodingSkills = () => {
               </div>
             </li>
             <li>
-              <div className="name">Angular / JavaScript</div>
+              <div className="name">Davinci / Capcut</div>
               <div className="progress p85">
                 {" "}
                 {/* p85 = 85% circle fill color */}
@@ -162,7 +154,7 @@ export const CodingSkills = () => {
               </div>
             </li>
             <li>
-              <div className="name">HTML / CSS</div>
+              <div className="name">Lightroom / Photoshop</div>
               <div className="progress p95">
                 {" "}
                 {/* p95 = 95% circle fill color */}
@@ -194,28 +186,28 @@ export const KnowledgeSkills = () => {
         <div className="skills list content-box">
           <ul>
             <li>
-              <div className="name">Website hosting</div>
+              <div className="name">Filming Content</div>
             </li>
             <li>
-              <div className="name">iOS and android apps</div>
+              <div className="name">Build Social Media</div>
             </li>
             <li>
-              <div className="name">Create logo design</div>
+              <div className="name">AI + UGC</div>
             </li>
             <li>
-              <div className="name">Design for print</div>
+              <div className="name">Sound Design</div>
             </li>
             <li>
-              <div className="name">Modern and mobile-ready</div>
+              <div className="name">Editing Software</div>
             </li>
             <li>
-              <div className="name">Advertising services include</div>
+              <div className="name">Graphic Design</div>
             </li>
             <li>
-              <div className="name">Graphics and animations</div>
+              <div className="name">Advertising services</div>
             </li>
             <li>
-              <div className="name">Search engine marketing</div>
+              <div className="name">Organic Marketing</div>
             </li>
           </ul>
         </div>

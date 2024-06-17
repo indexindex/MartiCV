@@ -4,40 +4,39 @@ const About = () => {
       <div className="content content-box">
         {/* image */}
         <div className="image">
-          <img src="images/man_r.jpg" alt="" />
+          <img src="/images/marti.jpg" alt="" />
         </div>
         {/* desc */}
         <div className="desc">
           <p>
-            Hello! I’m Daniel Curry. Web designer from USA, California, San
-            Francisco. I have rich experience in web site design and building,
-            also I am good at wordpress. I love to talk with you about our
-            unique.
+            Hello! I’m Marti Suvorov. Creative from Estonia, Tallinn. 
+            I have rich experience in photo and video design, also I'm good at Davinci Resolve. 
+            I'd love to talk about your ideas, and help you make them true.
           </p>
           <div className="info-list">
             <ul>
               <li>
-                <strong>Age:</strong> 24
+                <strong>Age:</strong> 22
               </li>
               <li>
-                <strong>Residence:</strong> USA
+                <strong>Residence:</strong> Estonia
               </li>
               <li>
                 <strong>Freelance:</strong> Available
               </li>
               <li>
-                <strong>Address:</strong> San Francisco
+                <strong>Address:</strong> Tallinn
               </li>
               <li>
-                <strong>Phone:</strong> +1 256 254 84 56
+                <strong>Phone:</strong> <a href="tel:+37253400432">+372 5340 0432</a>
               </li>
               <li>
-                <strong>E-mail:</strong> alejandroa@gmail.com
+                <strong>E-mail:</strong> <a href="contacts/#section-contacts">marti.fotograaf@gmail.com</a>
               </li>
             </ul>
           </div>
           <div className="bts">
-            <a href="#" className="btn hover-animated">
+            <a href="/cv.pdf" className="btn hover-animated" download>
               <span className="circle" />
               <span className="lnk">Download CV</span>
             </a>

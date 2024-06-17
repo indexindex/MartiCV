@@ -11,72 +11,66 @@ const Service = () => {
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-code" />
+                <img src="/icons/lightroom.svg" width="64"/>
               </div>
-              <div className="name">Web Development</div>
+              <div className="name">Lightroom Photo Editing</div>
               <div className="text">
-                Modern and mobile-ready website that will help you reach all of
-                your marketing.
+                I'll add a modern and stylished polish to your photos, that will truly bring them to life!
               </div>
             </div>
           </div>
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-music" />
+                <img src="/icons/da-vinci.svg" width="64"/>
               </div>
-              <div className="name">Music Writing</div>
+              <div className="name">Davinci Video Production</div>
               <div className="text">
-                Music copying, writing, creating, transcription, arranging and
-                services.
+                I'll push the limits with your footage to instantly grab attention and maximize engagment.
               </div>
             </div>
           </div>
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-ad" />
+                <img src="/icons/meta.svg" width="64"/>
               </div>
-              <div className="name">Advetising</div>
+              <div className="name">Advertising</div>
               <div className="text">
-                Advertising services include television, radio, print, mail, and
-                web apps.
+                I'll film a high-end advert in studio setting, create captions and format for all popular platforms.
               </div>
             </div>
           </div>
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-gamepad" />
+                <img src="/icons/canva.svg" width="64"/>
               </div>
-              <div className="name">Game Development</div>
+              <div className="name">Graphic Design</div>
               <div className="text">
-                Developing memorable and unique mobile android, ios and video
-                games.
+                I'll design the most memorable and unique abstracts for your brand. Logo, banners, graphics, etc.
               </div>
             </div>
           </div>
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-camera" />
+                <img src="/icons/camera.svg" width="64"/>
               </div>
               <div className="name">Photography</div>
               <div className="text">
-                Our in-house photography services team made up of professional
-                photographers.
+                I'll present highest quality photography with knowledge of composition, lightning and professional gear.
               </div>
             </div>
           </div>
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-mobile-alt" />
+                <img src="/icons/film.svg" width="64"/>
               </div>
-              <div className="name">Android Application</div>
+              <div className="name">Videography</div>
               <div className="text">
-                Games, playing music, handle network transactions, interacting
-                content etc.
+                I'll produce cinematic video content of your brand and use my own professional gear with knowledge in camera movement, transitions and gear.
               </div>
             </div>
           </div>

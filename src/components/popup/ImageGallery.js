@@ -91,6 +91,7 @@ const ImageGallery = () => {
       }
     }, 1000);
     console.log(imgs);
+    if (view) window.scrollTo(0, 0);
   }, [view]);
   return (
     <Fragment>

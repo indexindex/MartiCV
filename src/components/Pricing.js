@@ -1,4 +1,14 @@
+import { useAppContext } from '../context';
+import { useRouter } from 'next/router';
 const Pricing = () => {
+  const { state, dispatch } = useAppContext();
+  const router = useRouter();
+
+  const handleSelectPlan = (plan) => {
+    dispatch({ type: 'SET_PLAN', payload: plan });
+    router.push('/contacts');
+  };
+
   return (
     <div className="section pricing" id="section-pricing">
       <div className="content">
@@ -16,25 +26,28 @@ const Pricing = () => {
               <div className="name">Basic</div>
               <div className="amount">
                 <span className="number">
-                  <span className="dollar">$</span>
-                  <span>39</span>
+                  <span className="dollar">€</span>
+                  <span>45</span>
                   <span className="period">hour</span>
                 </span>
               </div>
               <div className="feature-list">
                 <ul>
-                  <li>Web Development</li>
-                  <li>Advetising</li>
-                  <li>Game Development</li>
-                  <li className="disable">Music Writing</li>
-                  <li className="disable">Photography</li>
+                  <li>Photography</li>
+                  <li>Lightroom Photo Editing</li>
+                  <li>Graphic Design</li>
+                  <li className="disable">Videography</li>
+                  <li className="disable">Davinci Video Production</li>
                 </ul>
               </div>
               <div className="bts">
-                <a href="#" className="btn hover-animated">
+                <p
+                  className="btn hover-animated"
+                  onClick={() => handleSelectPlan('Basic')}
+                >
                   <span className="circle" />
-                  <span className="lnk">Buy Now</span>
-                </a>
+                  <span className="lnk">Select</span>
+                </p>
               </div>
             </div>
           </div>
@@ -46,27 +59,28 @@ const Pricing = () => {
               <div className="name">Premium</div>
               <div className="amount">
                 <span className="number">
-                  <span className="dollar">$</span>
+                  <span className="dollar">€</span>
                   <span>59</span>
                   <span className="period">hour</span>
                 </span>
               </div>
               <div className="feature-list">
                 <ul>
-                  <li>Web Development</li>
-                  <li>Advetising</li>
-                  <li>Game Development</li>
-                  <li>Music Writing</li>
-                  <li>
-                    Photography <strong>new</strong>
-                  </li>
+                  <li>Videography</li>
+                  <li>Photography</li>
+                  <li>Lightroom Photo Editing</li>
+                  <li>Davinci Video Production</li>
+                  <li>Advertising <strong>new</strong></li>
                 </ul>
               </div>
               <div className="bts">
-                <a href="#" className="btn hover-animated">
+                <p
+                  className="btn hover-animated"
+                  onClick={() => handleSelectPlan('Premium')}
+                >
                   <span className="circle" />
-                  <span className="lnk">Buy Now</span>
-                </a>
+                  <span className="lnk">Select</span>
+                </p>
               </div>
             </div>
           </div>

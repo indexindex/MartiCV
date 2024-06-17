@@ -2,8 +2,8 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="copy">
-        <p>E: <a href="mailto:marti.fotograaf@gmail.com">marti.fotograaf@gmail.com</a></p>
-        <p>T: <a href="tel:+372 5340 0432">+372 5340 0432</a></p>
+        <p>E: <a href="contacts/#section-contacts">marti.fotograaf@gmail.com</a></p>
+        <p>T: <a href="tel:+37253400432">+372 5340 0432</a></p>
       </div>
       <div className="soc-box">
         <div className="follow-label">Follow Me</div>

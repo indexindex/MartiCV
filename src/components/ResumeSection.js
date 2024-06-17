@@ -10,30 +10,37 @@ const ResumeSection = () => {
             </div>
             {/* resume items */}
             <div className="resume-items">
+
               <div className="resume-item content-box active">
-                <div className="date">2013 - Present</div>
-                <div className="name">Art Director - Facebook Inc.</div>
+                <div className="date">2023 - Present</div>
+                <div className="name">Social media specialist - SERESULI OÜ</div>
                 <div className="text">
-                  Collaborate with creative and development teams on the
-                  execution of ideas.
+                  Creating content for social media to grow engagement and brand awareness.
+                  <br/>
+                  Filming video reels / Photography / Implementing graphic design / Utilizing the platform for target audience reach.
                 </div>
               </div>
+
               <div className="resume-item content-box">
-                <div className="date">2011 - 2012</div>
-                <div className="name">Front-End Developer - Google Inc.</div>
+                <div className="date">2023 - 2024</div>
+                <div className="name">Sales Consultant - Relaxationland OÜ</div>
                 <div className="text">
-                  Monitored technical aspects of the front-end delivery for
-                  projects.
+                  Identifying and engaging prospective customers to promote and sell products.
+                  <br/>
+                  Analyze customer needs and present tailored solutions. Build and maintain strong client relationships.
                 </div>
               </div>
+
               <div className="resume-item content-box">
-                <div className="date">2009 - 2010</div>
-                <div className="name">Senior Developer - ABC Inc.</div>
+                <div className="date">2022 - 2023</div>
+                <div className="name">Shopify Developer - LedEcho Inc</div>
                 <div className="text">
-                  Optimize your website and apps performance using latest
-                  technology.
+                  Build and Optimize e-commerce stores and apps performance using popular software with latest technology.
+                  <br/>
+                  Incorporating Meta to advertise products and services.
                 </div>
               </div>
+
             </div>
           </div>
           <div className="col col-md">
@@ -43,30 +50,31 @@ const ResumeSection = () => {
             </div>
             {/* resume items */}
             <div className="resume-items">
-              <div className="resume-item content-box">
-                <div className="date">2006 - 2008</div>
-                <div className="name">Art University - New York</div>
+
+              <div className="resume-item content-box active">
+                <div className="date">2023 - Present</div>
+                <div className="name">Tallinn University</div>
                 <div className="text">
-                  Bachelors Degree in Computer Science ABC Technical Institute,
-                  Jefferson, Missouri.
+                  Bachelors Degree in Public Relations and Advertising
                 </div>
               </div>
+
               <div className="resume-item content-box">
-                <div className="date">2005 - 2006</div>
-                <div className="name">Programming Course - Paris</div>
+                <div className="date">2022 - 2023</div>
+                <div className="name">Marketing Course</div>
                 <div className="text">
-                  Coursework - Git, WordPress, Javascript, iOS, Android, CSS,
-                  and JavaScript.
+                  Coursework - Shopify, Meta, Social Media, Copywriting, Content Creation, Email Marketing, and AI.
                 </div>
               </div>
+
               <div className="resume-item content-box">
-                <div className="date">2004 - 2005</div>
-                <div className="name">Web Design Course - London</div>
+                <div className="date">2021 - 2022</div>
+                <div className="name">UGC Course</div>
                 <div className="text">
-                  Converted Photoshop layouts to web pages using HTML, CSS, and
-                  JavaScript.
+                  Filming and converting raw footage to editing software, cutting, optimizing for use, color grading, adding effect and transitions.
                 </div>
               </div>
+
             </div>
           </div>
         </div>

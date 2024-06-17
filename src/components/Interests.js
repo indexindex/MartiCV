@@ -11,22 +11,22 @@ const Interests = () => {
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-baseball-ball" />
+                <span className="fas fa-heart" />
               </div>
-              <div className="name">Basketball</div>
+              <div className="name">Fitness</div>
               <div className="text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Showing up in the gym everyday has taught me dicipline and formed healthy habits.
               </div>
             </div>
           </div>
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-campground" />
+                <span className="fas fa-walking" />
               </div>
-              <div className="name">Camping</div>
+              <div className="name">Relax</div>
               <div className="text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                After long days of sitting behind a screen, I love getting outside or go for forest walks.
               </div>
             </div>
           </div>
@@ -37,18 +37,18 @@ const Interests = () => {
               </div>
               <div className="name">Chess</div>
               <div className="text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                I belive chess is the greatest mind game. During breaks I love to play chess.
               </div>
             </div>
           </div>
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-headphones" />
+                <span className="fas fa-book" />
               </div>
-              <div className="name">Music</div>
+              <div className="name">Reading</div>
               <div className="text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Reading psyhology and strategy books have helped me understand ideas, that were true but difficult to say.
               </div>
             </div>
           </div>
