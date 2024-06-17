@@ -6,7 +6,7 @@ const Pricing = () => {
 
   const handleSelectPlan = (plan) => {
     dispatch({ type: 'SET_PLAN', payload: plan });
-    router.push('/contacts');
+    router.push('/contacts#section-contacts');
   };
 
   return (
