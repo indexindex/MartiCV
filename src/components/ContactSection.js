@@ -2,7 +2,7 @@ import { Fragment, useState } from "react";
 import { useAppContext } from '../context';
 
 const ContactSection = () => {
-  const { state } = useAppContext();
+  const { state, dispatch } = useAppContext();
   const [senderEmail, setSenderEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
@@ -28,6 +28,7 @@ const ContactSection = () => {
         setSenderEmail('');
         setSubject('');
         setMessage('');
+        dispatch({ type: 'SET_PLAN', payload: '' });
       }
     } catch (error) {
       console.error('Error sending email:', error);

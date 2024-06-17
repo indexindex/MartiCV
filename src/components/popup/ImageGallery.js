@@ -32,12 +32,12 @@ const ImgView = ({ close, imgs }) => {
                     className="mfp-img"
                     src={images[photoIndex]}
                   />
-                  {/* <div className="mfp-bottom-bar">
+                  <div className="mfp-bottom-bar">
                     <div className="mfp-title" />
                     <div className="mfp-counter">
                       {photoIndex + 1} of {images.length}
                     </div>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>
@@ -71,7 +71,9 @@ const ImageGallery = () => {
   const [imgs, setImgs] = useState([]);
   const [view, setView] = useState(false);
   const [imgContainer, setImgContainer] = useState([]);
+
   useEffect(() => {
+    if (view) window.scrollTo(0, 0);
     setTimeout(() => {
       const imgGallery = document.querySelectorAll(".has-popup-gallery");
       for (let i = 0; i < imgGallery.length; i++) {
@@ -89,10 +91,10 @@ const ImageGallery = () => {
           setImgs(img_);
         });
       }
+      if (view) window.scrollTo(0, 0);
     }, 1000);
-    console.log(imgs);
-    if (view) window.scrollTo(0, 0);
   }, [view]);
+
   return (
     <Fragment>
       {view && (
