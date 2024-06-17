@@ -118,7 +118,7 @@ const ItemIsotope = () => {
                     <span className="icon fas fa-images" />
                     <span className="desc">
                       <span className="category">Gallery</span>
-                      <span className="name">"Brendance" Concert</span>
+                      <span className="name">&quot;Brendance&quot; Concert</span>
                     </span>
                   </span>
                 </span>
@@ -147,7 +147,7 @@ const ItemIsotope = () => {
                     <span className="icon fas fa-images" />
                     <span className="desc">
                       <span className="category">Gallery</span>
-                      <span className="name">Shot at "Jägala Joa"</span>
+                      <span className="name">Shot at &quot;Jägala Joa&quot;</span>
                     </span>
                   </span>
                 </span>
@@ -178,7 +178,7 @@ const ItemIsotope = () => {
                     <span className="icon fas fa-images" />
                     <span className="desc">
                       <span className="category">Gallery</span>
-                      <span className="name">"OIXIO" Inspiration Day</span>
+                      <span className="name">&quot;OIXIO&quot; Inspiration Day</span>
                     </span>
                   </span>
                 </span>
@@ -210,7 +210,7 @@ const ItemIsotope = () => {
                     <span className="icon fas fa-images" />
                     <span className="desc">
                       <span className="category">Gallery</span>
-                      <span className="name">Shot at "Harku Järv"</span>
+                      <span className="name">Shot at &quot;Harku Järv&quot;</span>
                     </span>
                   </span>
                 </span>
@@ -260,7 +260,7 @@ const ItemIsotope = () => {
                     <span className="icon fas fa-images" />
                     <span className="desc">
                       <span className="category">Gallery</span>
-                      <span className="name">Shot at "Rotermanni"</span>
+                      <span className="name">Shot at &quot;Rotermanni&quot;</span>
                     </span>
                   </span>
                 </span>

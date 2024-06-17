@@ -9,9 +9,9 @@ const About = () => {
         {/* desc */}
         <div className="desc">
           <p>
-            Hello! I’m Marti Suvorov. Creative from Estonia, Tallinn. 
-            I have rich experience in photo and video design, also I'm good at Davinci Resolve. 
-            I'd love to talk about your ideas, and help you make them true.
+            Hello! I&apos;m Marti Suvorov. Creative from Estonia, Tallinn. 
+            I have rich experience in photo and video design, also I&apos;m good at Davinci Resolve. 
+            I&apos;d love to talk about your ideas, and help you make them true.
           </p>
           <div className="info-list">
             <ul>

@@ -15,7 +15,7 @@ const Service = () => {
               </div>
               <div className="name">Lightroom Photo Editing</div>
               <div className="text">
-                I'll add a modern and stylished polish to your photos, that will truly bring them to life!
+                I&apos;ll add a modern and stylished polish to your photos, that will truly bring them to life!
               </div>
             </div>
           </div>
@@ -26,7 +26,7 @@ const Service = () => {
               </div>
               <div className="name">Davinci Video Production</div>
               <div className="text">
-                I'll push the limits with your footage to instantly grab attention and maximize engagment.
+                I&apos;ll push the limits with your footage to instantly grab attention and maximize engagment.
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@ const Service = () => {
               </div>
               <div className="name">Advertising</div>
               <div className="text">
-                I'll film a high-end advert in studio setting, create captions and format for all popular platforms.
+                I&apos;ll film a high-end advert in studio setting, create captions and format for all popular platforms.
               </div>
             </div>
           </div>
@@ -48,7 +48,7 @@ const Service = () => {
               </div>
               <div className="name">Graphic Design</div>
               <div className="text">
-                I'll design the most memorable and unique abstracts for your brand. Logo, banners, graphics, etc.
+                I&apos;ll design the most memorable and unique abstracts for your brand. Logo, banners, graphics, etc.
               </div>
             </div>
           </div>
@@ -59,7 +59,7 @@ const Service = () => {
               </div>
               <div className="name">Photography</div>
               <div className="text">
-                I'll present highest quality photography with knowledge of composition, lightning and professional gear.
+                I&apos;ll present highest quality photography with knowledge of composition, lightning and professional gear.
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@ const Service = () => {
               </div>
               <div className="name">Videography</div>
               <div className="text">
-                I'll produce cinematic video content of your brand and use my own professional gear with knowledge in camera movement, transitions and gear.
+                I&apos;ll produce cinematic video content of your brand and use my own professional gear with knowledge in camera movement, transitions and gear.
               </div>
             </div>
           </div>
